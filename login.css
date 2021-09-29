@@ -1,0 +1,35 @@
+body{
+	background: linear-gradient( 
+50deg, #000000f0, #2d6fe6d9);
+}
+
+.div1{
+	    background-color: black;
+    color: red;
+    text-align: center;
+    margin-top: -20px;
+    padding: 20px 0px
+}
+
+.div2{
+    color: black;
+    padding: 25px 0px;	
+}
+
+.div2_row{
+	margin-bottom:25px;
+}
+.div21 h1{
+	margin-bottom:25px;
+}
+
+.div11-img{
+    padding: 5% !important;
+    width: 65%;
+    margin: 0% 14%;
+}
+.div12{
+        margin-top: 3% !important;
+    margin-left: -30px;
+	
+}

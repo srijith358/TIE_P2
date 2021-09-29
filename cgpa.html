@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CGPA & SGPC CALCULATOR</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/cgpa.css"/>
+
+</head>
+
+<body>
+    <div class="div1 col-md-12 col-xs-12">
+        <div class="div11 col-md-2">
+            <img src="images/our-official-logo.png" class="img-responsive div11-img">
+        </div>
+        <div class="div12 col-md-10">
+            <ul class="nav nav-pills nav-tabs nav-justified">
+                <li role="presentation" class="active"><a href="#"><b>CGPA CALCULATOR</b></a></li>
+                <li role="presentation"><a href="sgpa.html"><b>SGPA CALCULATOR</b></a></li>
+            </ul>
+        </div>
+    </div>
+	<form oninput="sumresult.value = (parseInt(A.value) 
+                + parseInt(B.value) + parseInt(C.value)+ parseInt(D.value) + parseInt(E.value)
+				+ parseInt(F.value) + parseInt(G.value)+ parseInt(H.value))/(parseInt(sub.value))">
+	<div class="col-md-offset-4 col-xs-offset-2">
+	<div class="input-group col-md-6 col-xs-12 div_row">
+	<h2><b><u>ENTER THE SGPA</u><b></h2></div>
+	<div class="input-group col-md-4 col-xs-9 div_row">
+  <span class="input-group-addon" id="sizing-addon2"><b>NUMBER OF SEMESTER's</b></span>
+  <select class="form-control" id="exampleFormControlSelect1" value="1" name="sub">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+	  <option>6</option>
+      <option>7</option>
+      <option>8</option>
+    </select>
+  </div>
+	<div class="input-group col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon" id="sizing-addon2">SEMESTER 01</span>
+  <input type="number" name="A" class="form-control" placeholder="enter grade points ( 0 to 10 )" value="00" aria-describedby="sizing-addon2">
+</div>
+<div class="input-group col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon" id="sizing-addon2">SEMESTER 02</span>
+  <input type="number" name="B" class="form-control" placeholder="enter grade points ( 0 to 10 )" value="00" aria-describedby="sizing-addon2">
+</div>
+<div class="input-group col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon" id="sizing-addon2">SEMESTER 03</span>
+  <input type="number" name="C" class="form-control" placeholder="enter grade points ( 0 to 10 )" value="00" aria-describedby="sizing-addon2">
+</div>
+<div class="input-group col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon" id="sizing-addon2">SEMESTER 04</span>
+  <input type="number" name="D" class="form-control" placeholder="enter grade points ( 0 to 10 )" value="00" aria-describedby="sizing-addon2">
+</div>
+<div class="input-group col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon" id="sizing-addon2">SEMESTER 05</span>
+  <input type="number" name="E" class="form-control" placeholder="enter grade points ( 0 to 10 )" value="00" aria-describedby="sizing-addon2">
+</div>
+<div class="input-group col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon" id="sizing-addon2">SEMESTER 06</span>
+  <input type="number" name="F" class="form-control" placeholder="enter grade points ( 0 to 10 )" value="00" aria-describedby="sizing-addon2">
+</div>
+<div class="input-group col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon" id="sizing-addon2">SEMESTER 07</span>
+  <input type="number" name="G" class="form-control" placeholder="enter grade points ( 0 to 10 )" value="00" aria-describedby="sizing-addon2">
+</div>
+<div class="input-group col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon" id="sizing-addon2">SEMESTER 08</span>
+  <input type="number" name="H" class="form-control" placeholder="enter grade points ( 0 to 10 )" value="00" aria-describedby="sizing-addon2">
+</div>
+<div class="input-group input-group-lg col-md-6 col-xs-10 div_row">
+  <span class="input-group-addon " id="sizing-addon2"><b><i>RESULT (CGPA) : </i></b></span>
+  <output name="sumresult"class="form-control" aria-describedby="sizing-addon2"></output>
+  </div>
+</div>
+</form>
+	
+	
+</body>
+
+</html>

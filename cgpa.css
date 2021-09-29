@@ -1,0 +1,23 @@
+.div1{
+    background-color: black;
+}
+
+body{
+	    color: #000;
+   background: linear-gradient( 
+45deg, #2054f5, #33d014ed);
+}
+.div12{
+    margin-top: 5% !important;
+	font-size: 20px;
+}
+
+.div11-img{
+    padding: 5% !important;
+    width: 70%;
+    margin: 0% 14%;
+}
+
+.div_row{
+	margin-bottom:10px;
+}
